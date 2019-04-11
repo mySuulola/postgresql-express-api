@@ -12,8 +12,8 @@ e.g curl --data "name=Suulola&email=oluwaseyisuulola@gmail.com" http://localhost
 e.g curl -X "DELETE" http://localhost:3000/users/1
 
 #To update 
-- curl -X PUT -d "name=Kramer" -d "<EMAIL>" http://localhost:3000/users/<ID>
-e.g. curl -X PUT -d "name=Kramer" -d "email=oluwaseyisuulola@gmail.com" http://localhost:3000/users/1
+- curl -X PUT -d "name=<NAME>" -d "<EMAIL>" http://localhost:3000/users/<ID>
+e.g. curl -X PUT -d "name=Suulola" -d "email=oluwaseyisuulola@gmail.com" http://localhost:3000/users/1
 
 #To delete
 - curl -X "DELETE" http://localhost:3000/users/<ID>
