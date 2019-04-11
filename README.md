@@ -1,10 +1,9 @@
 # Postgres Express && Node
 
 
-# To add to database from commandline
+#To add to database from commandline
 - curl --data "name=<NAME>&email=<EMAIL>" http://localhost:3000/users
 - e.g curl --data "name=Suulola&email=oluwaseyisuulola@gmail.com" http://localhost:3000/users
-
 
 
 #To delete
